@@ -7,7 +7,7 @@ const root = createRoot(document.getElementById('root'))
 
 root.render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/examples'>
       <App />
     </BrowserRouter>
   </StrictMode>
