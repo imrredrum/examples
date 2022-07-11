@@ -1,0 +1,54 @@
+.game ol,
+.game ul {
+  padding-left: 30px;
+}
+
+.game ol button {
+  min-width: 95px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  cursor: 'pointer';
+  margin: 4px;
+}
+
+.game .board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.game .status {
+  margin-bottom: 10px;
+}
+
+.game .square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.game .square:focus {
+  outline: none;
+}
+
+.game .kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game .game-info {
+  margin-left: 20px;
+}
